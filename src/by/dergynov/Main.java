@@ -11,7 +11,7 @@ public class Main {
         int secondDiceVolume = secondDice.throwDice();
         if(firstDiceVolume==secondDiceVolume){
             theSameDiceVolume = true;
-            System.out.println("Ups...! It's not amassing!");
+            System.out.println("Ups...! It's amassing!");
         }
         System.out.printf("Dices is %d:%d",firstDiceVolume, secondDiceVolume);
 
